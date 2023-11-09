@@ -88,6 +88,7 @@
               ico: <i class="fa-solid fa-z"></i>
               lbl: Zulip
               url: https://spls.zulipchat.com
+- name: Development
   columns:
     - categories:
         - name: Repos
