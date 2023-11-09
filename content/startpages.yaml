@@ -1,208 +1,93 @@
 - name: Home
   columns:
     - categories:
-        - name: Search
-          rows:
-            - !Link
-              ico: <i class="fa-solid fa-robot"></i>
-              lbl: ChatGPT
-              url: https://chat.openai.com/
-            - !Link
-              ico: <i class="fa-solid fa-magnifying-glass"></i>
-              lbl: DuckDuckGo
-              url: https://duckduckgo.com/
-            - !Link
-              ico: <i class="fa-solid fa-magnifying-glass"></i>
-              lbl: Google Search
-              url: https://www.google.com/
         - name: Tools
           rows:
             - !Link
-              ico: <i class="fa-solid fa-envelope"></i>
-              lbl: Mail
-              url: https://gmail.com
-            - !Link
-              ico: <i class="fa-solid fa-envelope"></i>
-              lbl: ProtonMail
-              url: https://proton.me/
-            - !Link
               ico: <i class="fa-solid fa-calendar-days"></i>
               lbl: Calendar
-              url: https://calendar.google.com/calendar/r/week
+              url: https://office.mailbox.org/appsuite/#!!&app=io.ox/calendar&folder=cal://0/31&perspective=week:week&storeLocale=true
+            - !Link
+              ico: <i class="fa-solid fa-envelope"></i>
+              lbl: Mailbox
+              url: https://office.mailbox.org/appsuite/#!!&app=io.ox/mail&folder=default0/INBOX
+            - !Link
+              ico: <i class="fa-solid fa-envelope"></i>
+              lbl: Uni Outlook
+              url: https://outlook.office365.com/owa/
+            - !Link
+              ico: <i class="fa-solid fa-envelope"></i>
+              lbl: Gmail
+              url: https://mail.google.com/mail/u/0/#inbox
             - !Link
               ico: <i class="fa-solid fa-language"></i>
               lbl: Translate
-              url: https://translate.google.com/
+              url: https://translate.google.com/1
             - !Link
               ico: <i class="fa-solid fa-map-location-dot"></i>
               lbl: Maps
               url: https://www.google.com/maps
-            - !Link
-              ico: <i class="fa-brands fa-google-drive"></i>
-              lbl: Drive
-              url: https://drive.google.com/drive/u/0/my-drive
             - !Separator
             - !Link
               ico: <i class="fa-solid fa-sun"></i>
-              lbl: Weather
-              url: https://wttr.in/
+              lbl: Learn
+              url: https://www.learn.ed.ac.uk
             - !Link
-              ico: <i class="fa-solid fa-person-hiking"></i>
-              lbl: AllTrails
-              url: https://www.alltrails.com/
-            - !Link
-              ico: <i class="fa-solid fa-person-hiking"></i>
-              lbl: Outdoor Active
-              url: https://www.outdooractive.com/en/
+              ico: <i class="fa-brands fa-github"></i>
+              lbl: GitHub
+              url: https://www.github.com/jacobjwalters
     - categories:
-        - name: Knowledge
+        - name: Personal Services
           rows:
             - !Link
-              ico: <i class="fa-brands fa-wikipedia-w"></i>
-              lbl: Wikipedia
-              url: https://en.wikipedia.org/wiki/Main_Page
+              ico: <i class="fa-solid fa-house-signal"></i>
+              lbl: Home Assistant
+              url: https://home.jacobwalte.rs
             - !Link
-              ico: <i class="fa-brands fa-quora"></i>
-              lbl: Quora
-              url: https://www.quora.com
+              ico: <i class="fa-solid fa-vault"></i>
+              lbl: VaultWarden
+              url: https://pw.jacobwalte.rs
             - !Link
-              ico: <i class="fa-brands fa-stack-exchange"></i>
-              lbl: Stack Exchange
-              url: https://stackexchange.com/
-        - name: News
+              ico: <i class="fa-solid fa-images"></i>
+              lbl: PhotoPrism
+              url: http://csmpc:52342
+            - !Link
+              ico: <i class="fa-solid fa-money-bill-trend-up"></i>
+              lbl: Finances
+              url: http://csmpc:2342/d/d1f9170d-efc5-4100-9a42-57d442e5f214/finances?orgId=1
+            - !Link
+              ico: <i class="fa-solid fa-street-view"></i>
+              lbl: QS
+              url: http://csmpc:2342/d/d1f9170d-efc5-4100-9a42-57d442e5f214/finances?orgId=1
+        - name: Hosted Services
           rows:
             - !Link
-              ico: <i class="fa-solid fa-newspaper"></i>
-              lbl: The New York Times
-              url: https://www.nytimes.com/
-            - !Link
-              ico: <i class="fa-solid fa-newspaper"></i>
-              lbl: NBC News
-              url: https://www.nbcnews.com/
-            - !Link
-              ico: <i class="fa-solid fa-newspaper"></i>
-              lbl: NPR
-              url: https://www.npr.org/
-            - !Link
-              ico: <i class="fa-solid fa-newspaper"></i>
-              lbl: Bloomberg
-              url: https://www.bloomberg.com
-            - !Separator
-            - !Link
-              ico: <i class="fa-solid fa-newspaper"></i>
-              lbl: Deutsche Welle
-              url: https://www.dw.com
-            - !Link
-              ico: <i class="fa-solid fa-newspaper"></i>
-              lbl: France24
-              url: https://www.france24.com
-            - !Link
-              ico: <i class="fa-solid fa-newspaper"></i>
-              lbl: BBC
-              url: https://www.bbc.com/
-            - !Link
-              ico: <i class="fa-solid fa-newspaper"></i>
-              lbl: CNN
-              url: https://edition.cnn.com/
-            - !Link
-              ico: <i class="fa-solid fa-newspaper"></i>
-              lbl: CGTN
-              url: https://www.cgtn.com/
-    - categories:
-        - name: Aggregators
-          rows:
-            - !Link
-              ico: <i class="fa-brands fa-hacker-news"></i>
-              lbl: Hacker News
-              url: https://news.ycombinator.com/
-            - !Link
-              ico: <i class="fa-brands fa-reddit-alien"></i>
-              lbl: Reddit
-              url: https://www.reddit.com/
-        - name: Music
-          rows:
-            - !Link
-              ico: <i class="fa-brands fa-spotify"></i>
-              lbl: Spotify
-              url: https://open.spotify.com/?
-            - !Link
-              ico: <i class="fa-brands fa-mixcloud"></i>
-              lbl: Mixcloud
-              url: https://www.mixcloud.com/
-            - !Link
-              ico: <i class="fa-brands fa-soundcloud"></i>
-              lbl: Soundcloud
-              url: https://soundcloud.com/
-        - name: Reading
-          rows:
-            - !Link
-              ico: <i class="fa-brands fa-medium"></i>
-              lbl: Medium
-              url: https://medium.com/
-            - !Link
-              ico: <i class="fa-brands fa-goodreads-g"></i>
-              lbl: Goodreads
-              url: https://www.goodreads.com/
+              ico: <i class="fa-solid fa-file-pen"></i>
+              lbl: reMarkable
+              url: https://my.remarkable.com
     - categories:
         - name: Social
           rows:
             - !Link
               ico: <i class="fa-brands fa-mastodon"></i>
               lbl: Mastodon
-              url: https://joinmastodon.org/
+              url: https://types.pl
             - !Link
-              ico: <i class="fa-brands fa-twitter"></i>
-              lbl: Twitter
-              url: https://twitter.com/
+              ico: <i class="fa-brands fa-telegram"></i>
+              lbl: Zulip
+              url: https://web.telegram.org
+            - !Link
+              ico: <i class="fa-brands fa-discord"></i>
+              lbl: Discord
+              url: https://discord.com/channels/@me
             - !Link
               ico: <i class="fa-brands fa-linkedin"></i>
               lbl: Linkedin
               url: https://www.linkedin.com
             - !Link
-              ico: <i class="fa-brands fa-facebook"></i>
-              lbl: Facebook
-              url: https://www.facebook.com/
-        - name: Media
-          rows:
-            - !Link
-              ico: <i class="fa-brands fa-youtube"></i>
-              lbl: YouTube
-              url: https://www.youtube.com/
-            - !Link
-              ico: <i class="fa-brands fa-twitch"></i>
-              lbl: Twitch
-              url: https://www.twitch.tv/
-            - !Link
-              ico: <i class="fa-brands fa-tiktok"></i>
-              lbl: TikTok
-              url: https://www.tiktok.com/
-            - !Link
-              ico: <i class="fa-brands fa-instagram"></i>
-              lbl: Instagram
-              url: https://www.instagram.com/
-        - name: Gaming
-          rows:
-            - !Link
-              ico: <i class="fa-brands fa-steam"></i>
-              lbl: Steam
-              url: https://store.steampowered.com/
-            - !Link
-              ico: <i class="fa-solid fa-key"></i>
-              lbl: Key For Steam
-              url: https://www.keyforsteam.de/
-            - !Link
-              ico: <i class="fa-solid fa-gamepad"></i>
-              lbl: Humble Bundle
-              url: https://www.humblebundle.com/
-            - !Link
-              ico: <i class="fa-solid fa-gamepad"></i>
-              lbl: Good Old Games
-              url: https://www.gog.com/
-            - !Link
-              ico: <i class="fa-solid fa-gamepad"></i>
-              lbl: RAWG
-              url: https://rawg.io/
-- name: Development
+              ico: <i class="fa-solid fa-z"></i>
+              lbl: Zulip
+              url: https://spls.zulipchat.com
   columns:
     - categories:
         - name: Repos
