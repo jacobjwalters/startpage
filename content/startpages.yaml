@@ -64,7 +64,7 @@
             - !Link
               ico: <i class="fa-solid fa-file-pen"></i>
               lbl: reMarkable Files
-              url: https://my.remarkable.com/files
+              url: https://my.remarkable.com/myfiles
     - categories:
         - name: Social
           rows:
