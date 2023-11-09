@@ -29,7 +29,7 @@
               url: https://www.google.com/maps
             - !Separator
             - !Link
-              ico: <i class="fa-solid fa-sun"></i>
+              ico: <i class="fa-solid fa-graduation-cap"></i>
               lbl: Learn
               url: https://www.learn.ed.ac.uk
             - !Link
