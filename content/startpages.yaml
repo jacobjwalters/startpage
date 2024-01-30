@@ -2,7 +2,7 @@
   columns:
     - categories:
         - name: Tools
-          header-id: countdown
+          headerId: countdown
           rows:
             - !Link
               ico: <i class="fa-solid fa-calendar-days"></i>
