@@ -37,7 +37,9 @@
       <div class="column">
         {% for category in column.categories %}
         <div class="category">
-          <h1 id={{ category.headerId }}></h1>
+          {% if category.name == "Tools" %}
+          <h1 id="countdown"></h1>
+          {% endif %}
           <h2>{{ category.name }}</h2>
           <div class="rows">
             {% for row in category.rows %} {% if row == "Separator" %}
