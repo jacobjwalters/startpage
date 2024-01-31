@@ -75,7 +75,7 @@
               url: https://types.pl
             - !Link
               ico: <i class="fa-brands fa-telegram"></i>
-              lbl: Zulip
+              lbl: Telegram
               url: https://web.telegram.org
             - !Link
               ico: <i class="fa-brands fa-discord"></i>
